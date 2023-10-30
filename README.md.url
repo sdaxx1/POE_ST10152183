@@ -1,2 +1,50 @@
-[InternetShortcut]
-URL=https://github.com/yi-fan26/prog7311-part2-st10152183/blob/main/README.md
+Description
+
+This website is used for farmers to upload their products and for admins and employees to manage user accounts. There are three types of accounts.
+
+1.Edmin account can add, delete, edit employees and farmers' account and information, also able to check the product and sort product by type, farmer id and upload date.
+
+2.Employee account can add, delete, edit farmers' account and information, also able to check the product and sort product by type, farmer id and upload date.
+
+3.Farmer account can only add, delete, edit the product and couldn't do anything to other's farmers' product.
+
+Tools needed
+
+visual studio 2022 community
+
+download link: https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false
+
+After downloading visual studio 2022 community:
+
+1.press start button and search for visual studio installer
+
+2.click modify, then install ASP.NET and Web development and Data storage and processing
+
+Clone project by GitHub
+
+git hub link to clone: https://github.com/sdaxx1/POE.git
+
+1.Open Visual studio 2022 community and select clone a repository, then copy the git hub link above and paste it under repository location and press create.
+
+After open the project, this is how you connect to the azure database:
+
+Click view at the top then select server explorer.
+
+Click the third Icon under server explorer to connect to database
+
+3.add this under server name: yi-server.database.windows.net,1433
+
+4.Authentication: select SQL server authentication.
+
+5.username: st10152183 password: Vc10152183
+
+6.under select or enter a database, select st10152183_POE_Database then press ok
+
+then press f5 to run the website.
+Admin account:
+
+Username: admin
+
+Password: vc12345
+
+For the employee account and farmer account you can create or check inside the website
